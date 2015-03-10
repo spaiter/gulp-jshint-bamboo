@@ -1,0 +1,42 @@
+{
+  "name": "gulp-jshint-bamboo",
+  "version": "0.0.2",
+  "description": "Report JShint to Bamboo",
+  "license": "CC BY 3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yutin1987/gulp-jshint-bamboo.git"
+  },
+  "author": {
+    "name": "YuTin",
+    "email": "yuting1987@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulp",
+    "jshint",
+    "javascript",
+    "bamboo",
+    "js",
+    "code",
+    "style"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "jshint": "^2.6.3",
+    "lodash": "^3.5.0",
+    "rcloader": "^0.1.4",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/yutin1987/gulp-jshint-bamboo/issues"
+  }
+}
