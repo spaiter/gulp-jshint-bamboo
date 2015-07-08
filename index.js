@@ -107,7 +107,7 @@ module.exports = function (options) {
     });
 	}, function (cb) {
 		fs.writeFileSync(
-			'jshint-report.json',
+			options.filename,
 			JSON.stringify(result, null, 2),
 			'utf-8'
 		);
